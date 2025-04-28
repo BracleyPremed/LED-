@@ -1,7 +1,10 @@
-# LED 
+<h1 align="center" > <strong> LED </strong> </h1>
 
-This project covers the basics of how to connect and blink an LED using an Arduino board.
-![Final Project](https://github.com/BracleyPremed/LED-/blob/main/IMG_7454.HEIC)
+
+
+<p>This project covers the basics of how to connect and blink an LED using an Arduino board.</p>
+
+![Final Project](https://github.com/BracleyPremed/LED-/blob/main/RD.png)
 ---
 
 ## LED Component Basics
@@ -80,4 +83,6 @@ Board Voltage	LED Voltage	Target Current	Resistor Value
 (Values calculated with R = (5V - 2V) ÷ Target Current)
 
 
----
+Sam Cherilus
+
+
