@@ -51,38 +51,36 @@ void loop() {
   digitalWrite(num, HIGH);
   digitalWrite(numP, HIGH);
 }
-Key Points About the Code
-pinMode(pin, OUTPUT);: Initializes the pin as an output.
 
-digitalWrite(pin, HIGH);: Turns the LED ON by sending 5V to the anode.
-
-digitalWrite(pin, LOW);: Turns the LED OFF (0V).
-
-delay(milliseconds);: (Optional) Use to control ON/OFF timing.
-Example: delay(500); waits 500 milliseconds.
-
-Example Circuit Layout
-
-Notes
-Always use a current-limiting resistor in series with an LED.
-
-Typical resistor values for 5V Arduino boards:
-
-220Ω (brighter)
-
-330Ω (less bright but safer)
-
-Adjust resistor value depending on the LED brightness you desire.
-
-Quick Reference: Resistor Calculation Example
-
-Board Voltage	LED Voltage	Target Current	Resistor Value
-5V	2V	20mA	150Ω
-5V	2V	15mA	200Ω
-5V	2V	10mA	300Ω
-(Values calculated with R = (5V - 2V) ÷ Target Current)
+```
+</br>
 
 
-Sam Cherilus
+<h3>Key Points About the Code</h3>
+
+```cpp
+pinMode(pin, OUTPUT); //Initializes the pin as an output.
+```
+
+```cpp
+digitalWrite(pin, HIGH); // Turns the LED ON by sending 5V to the anode.
+```
+
+```cpp
+digitalWrite(pin, LOW); // Turns the LED OFF (0V).
+```
+
+```cpp
+delay(milliseconds); //(Optional) Use to control ON/OFF timing.
+                    //Example: delay(500); waits 500 milliseconds.
+```
+
+<h4> Note </h4>
+<p>Always use a current-limiting resistor in series with an LED. </p>
+
+
+
+
+<p><strong>Sam Cherilus </strong></p>
 
 
